@@ -116,7 +116,7 @@ function updateToolTip(chosenXaxis, chosenYaxis, circlesGroup, state_county){
                             return(`${d.chsi_state_name},${d.chsi_state_abbr}<br>${xLabel}${d[chosenXaxis]}%<br>${yLabel}${d[chosenYaxis]}%`)
                         }
                         else{
-                            return(`${d.chsi_county_name}<br>${xLabel}${d[chosenXaxis]}%<br>${yLabel}${d[chosenYaxis]}%`)
+                            return(`${d.chsi_county_name}<br>${d.chsi_state_name},${d.chsi_state_abbr}<br>${xLabel}${d[chosenXaxis]}%<br>${yLabel}${d[chosenYaxis]}%`)
                         }
                       })
     
@@ -466,16 +466,16 @@ if (value !== chosenYaxis) {
                 .attr("transform", `translate(${0-margin.left/4}, ${height/2})`);
 
             const xLabel = xlabelsGroup.append("text")
-                .attr("transform", `translate(${width / 2}, ${height + 20 + margin.top})`)
-                // .attr("x", 0)
-                // .attr("y", 0)
+                // .attr("transform", `translate(${width / 2}, ${height + 20 + margin.top})`)
+                .attr("x", 0)
+                .attr("y", 0)
                 .attr("value", chosenXaxis) // value to grab for event listener
                 .classed("active", true)
                 .classed("aText", true)
                 .text(chosenXaxis);
 
             const yLabel = ylabelsGroup.append("text")
-                .attr("transform", `translate(${0-margin.left/4}, ${(height/20)})`)
+                // .attr("transform", `translate(${0-margin.left/4}, ${(height/20)})`)
                 .attr("y", 0 - 20)
                 .attr("x", 0)
                 .attr("transform", "rotate(-90)")
