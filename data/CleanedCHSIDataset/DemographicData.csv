@@ -545,7 +545,7 @@ state_fips_code,chsi_state_name,county_fips_code,chsi_county_name,chsi_state_abb
 13,Georgia,321,Worth,GA,69,"frontier status, population size, poverty, age, population density",45,21996,17.4,27.1,59.7,11.5,1.6,69.1,29.9,0.3,0.3,1.2
 15,Hawaii,1,Hawaii,HI,6,"frontier status, population size, poverty",53,167293,13.1,26.7,60.0,11.3,2.0,35.9,0.7,0.5,36.0,6.4
 15,Hawaii,3,Honolulu,HI,2,"frontier status, population size, poverty",32,905266,10.5,24.6,61.4,11.8,2.2,22.9,3.0,0.3,55.1,4.7
-15,Hawaii,5,Kalawao,HI,37,"frontier status, population size, poverty, age",30,111,-2222.2,1.4,82.3,11.7,4.5,41.4,0.0,0.0,55.9,5.4
+15,Hawaii,5,Kalawao,HI,37,"frontier status, population size, poverty, age",30,111,,1.4,82.3,11.7,4.5,41.4,0.0,0.0,55.9,5.4
 15,Hawaii,7,Kauai,HI,18,"frontier status, population size, poverty, age",20,62640,10.5,25.9,60.0,11.7,2.4,33.9,0.4,0.4,43.8,5.7
 15,Hawaii,9,Maui,HI,12,"frontier status, population size, poverty, age",57,139884,10.2,25.1,63.5,9.7,1.8,38.3,0.6,0.5,40.5,5.8
 16,Idaho,1,Ada,ID,10,"frontier status, population size, poverty, age",36,344727,9.3,26.6,64.0,8.1,1.4,94.6,0.8,0.7,2.1,5.3
